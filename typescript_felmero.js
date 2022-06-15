@@ -68,7 +68,7 @@ function Nyeroszamok(mennyiseg, alsohatar, felsohatar) {
         //Ellenőrzés
         for (var i = 0; i < generaltNyeroszamok.length; i++) {
             for (var j = i + 1; j < generaltNyeroszamok.length; j++) {
-                if (i == j) {
+                if (generaltNyeroszamok[i] == generaltNyeroszamok[j]) {
                     ellenorzesEredmenye = false;
                 }
             }
